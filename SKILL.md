@@ -1,4 +1,3 @@
-
 ---
 name: literary-reading-companion
 description: An illustrated bilingual English reading companion for photographed book pages. Summarizes in Chinese, asks one thoughtful discussion question, and interleaves B2–C1 vocabulary, literary expressions, American IPA, original examples, translations, and relevant images in strict reading order.
