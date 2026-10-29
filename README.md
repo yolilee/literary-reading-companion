@@ -18,11 +18,11 @@
 | 1 · Read | Interpret a photograph of one or two facing pages; identify only readable text. |
 | 2 · Summarize | A concise **Chinese story summary**, including relevant subtext, with no spoilers beyond the supplied pages. |
 | 3 · Discuss | **One thoughtful question** in English, with Chinese translation; a real literary conversation, not a rote quiz. |
-| 4 · Learn | Thorough **B2–C1 vocabulary** in exact page order: left page top-to-bottom, then right page top-to-bottom. |
-| 5 · Visualize | Real-world reference images **beside useful visual words**, when supported by the assistant. |
+| 4 · Learn | Thorough **B2–C1 vocabulary plus useful literary C2 items** in exact page order: left page top-to-bottom, then right page top-to-bottom. |
+| 5 · Visualize | Relevant images **immediately beside or below their entries**, before the next item; actively retrieve and display references when supported. |
 | 6 · Continue | Maintain reading continuity across new page photos, and avoid needless repetition. |
 
-Each vocabulary entry includes **American IPA**, approximate **CEFR level**, **contextual Chinese meaning**, a **newly written English example**, and its **Chinese translation**. Include meaningful phrases and uncommon literary words, but do not fill the list with trivial beginner vocabulary. Common words that challenge B2 readers (such as *glimpse, flare, scoff, reprieve*) should not be skipped.
+Each vocabulary entry includes **American IPA**, approximate **CEFR level**, **contextual Chinese meaning**, a **newly written English example**, and its **Chinese translation**. Include meaningful phrases and uncommon literary words, but do not fill the list with trivial beginner vocabulary. Words and phrases are **interleaved in one numbered sequence**, never grouped by type or sorted by difficulty. Relevant B2 vocabulary should still be covered; the more demanding showcase below is not a minimum difficulty requirement.
 
 ### Supported books and genres
 
@@ -30,31 +30,57 @@ The workflow is **book-agnostic**: contemporary fiction, fantasy, historical fic
 
 ### Example output (original, fictional demonstration)
 
-**Input:** A clear photograph of two facing pages from *any* English novel.
+**V2.1 reading-order workflow:** select relevant B2–C2 words and expressions, then present them strictly in their original positions: left page top-to-bottom → right page top-to-bottom. Never sort the final output by frequency, difficulty, or word/phrase type.
 
-**1. Story summary / 内容总结**  
-A traveler returns to a familiar coast but realizes that the place—and their sense of belonging—has changed.  
-一位旅人重返熟悉的海岸，却发现故地与自己的归属感都已悄然改变。
+This deliberately advanced showcase uses an **original two-page scene about returning to an abandoned coastal cottage at dusk**. Its source fragments and full response appear in [the complete illustrated sample](examples/sample-output.md). No published novel or real page numbers are implied.
 
-**2. Discussion / 讨论问题**  
-*Can returning to a familiar place make us feel less at home than leaving it?*  
-重返熟悉的地方，是否反而可能让我们比离开时更没有归属感？
+**内容总结：** 玛拉在暮色中重返旧宅，失修的屋舍与老树让她意识到现实和记忆的落差。
 
-**3. Vocabulary / 生词** (demonstration only; actual output follows the photographed text's exact order)
+**Discussion:** What do the signs of decay suggest about the gap between Mara's memory and the place she returns to?  
+这些衰败的痕迹，暗示了玛拉的记忆与她重返的现实之间怎样的落差？
 
-**LEFT PAGE**
+**Illustrated reading notes — LEFT PAGE**
 
-**01 · glimpse** /ɡlɪmps/ · **B2** — 瞥见；短暂看到  
-*Example:* She caught a glimpse of the distant shore.  
-*中文：* 她瞥见了远处的海岸。
+**01 · crepuscular** — 单词 · /krɪˈpʌskjəlɚ/ · **literary C2**\*  
+暮色的；光线昏暗如黄昏的。  
+*Crepuscular light softened the edges of the cliffs.*  
+暮色柔化了悬崖的轮廓。
 
-**RIGHT PAGE**
+![AI-generated illustrative reference: crepuscular](assets/sample-twilight.jpg)
 
-**02 · relent** /rɪˈlent/ · **C1** — （恶劣情况、态度）缓和；变得不再严厉  
-*Example:* The storm finally relented before dawn.  
-*中文：* 暴风雨终于在黎明前减弱。
+**02 · fall into disrepair** — 短语·表达 · /fɔl ˈɪntu ˌdɪsrɪˈper/ · **C1**\*  
+因失修而逐渐破败。  
+*Without regular maintenance, the boathouse fell into disrepair.*  
+由于缺乏定期维护，船屋逐渐破败。
 
-When a relevant term is concrete, the assistant may insert a reference image **between adjacent vocabulary entries without changing their order**.
+![AI-generated illustrative reference: fall into disrepair](assets/sample-disrepair.jpg)
+
+**03 · gnarled** — 单词 · /nɑrld/ · **C1**\*  
+（树干、枝条）多节而扭曲的。  
+*A gnarled oak spread its branches above the gate.*  
+一棵虬曲的老橡树在大门上方伸展着枝条。
+
+![AI-generated illustrative reference: gnarled](assets/sample-gnarled.jpg)
+
+**RIGHT PAGE — numbering continues**
+
+**04 · dilapidated** — 单词 · /dɪˈlæpɪdeɪtɪd/ · **C2**  
+（建筑等）年久失修、破败的。  
+*Rain seeped through the roof of the dilapidated cottage.*  
+雨水从那间破败村舍的屋顶渗了进来。
+
+![AI-generated illustrative reference: dilapidated](assets/sample-disrepair.jpg)
+
+**05 · lichen-encrusted** — 单词·复合形容词 · /ˈlaɪkən ɪnˈkrʌstɪd/ · **literary C2**\*  
+表面结着一层地衣的。  
+*She rested her palm on the lichen-encrusted gatepost.*  
+她把手掌放在覆满地衣的门柱上。
+
+![AI-generated illustrative reference: lichen-encrusted](assets/sample-lichen.jpg)
+
+*All images above are AI-generated illustrative references / AI 生成示意配图，非实地摄影。The two preview PNGs are illustrative layouts, not real app screenshots.*
+
+**Selection and accuracy:** the complete sample includes a reproducible wordfreq 3.1.1 screening table (candidate Zipf scores and selection reasons). First screen for lower commonness / greater lexical difficulty first, then choose scene-relevant, visually useful words. Restore source order before presenting. This demo emphasizes C1–C2; actual output still includes relevant B2 items. **\* = approximate editorial CEFR estimate, not a dictionary-certified label.** Oxford lists *dilapidated* under Buildings C2; the other showcased labels, including the compound *lichen-encrusted*, are teaching estimates. The full sample documents screening and [dictionary checks](examples/sample-output.md). Lower frequency is not itself proof of a CEFR level.
 
 ### Installation and usage
 
@@ -75,7 +101,7 @@ When a relevant term is concrete, the assistant may insert a reference image **b
 
 - Keep both pages sharp, well-lit, and as flat as possible; avoid covering words with fingers.
 - For difficult words or blurred text, upload a close-up rather than asking the assistant to guess.
-- Images are optional: they require an assistant capable of retrieving or displaying visual references. A Markdown file cannot force the chat interface to render pictures.
+- Visual support is a core part of the workflow: actively assess each entry and display a relevant image when tools support it. If retrieval or inline display is unavailable, explain once and place a specific “配图检索” suggestion immediately after each visualizable entry. Never claim an image was displayed when it was not.
 - This is an **instruction-based skill**, not a standalone app or a guaranteed one-click ChatGPT integration. Results depend on the model and its enabled capabilities.
 - Examples are original and do not reproduce copyrighted book passages.
 
@@ -95,13 +121,13 @@ When a relevant term is concrete, the assistant may insert a reference image **b
 
 ![双语示例展示（示意图）](assets/preview-chinese.png)
 
-> 图片是为了说明输出形式而制作的**示意图**，并非真实聊天截图，也不是某本书的逐字摘录。
+> 图片是**排版示意图，非真实 App 或聊天截图**；配图为 AI 生成的写实风格示意，非实地摄影，也不是某本书的逐字摘录。新示例以暮色、虬曲老树、失修旧宅和地衣为线索，展示较难的文学词汇与表达。带 * 的 CEFR 为教学估计；完整例文附用法、音标及等级依据。
 
 ### 你会得到什么？
 
 1. **剧情概括**：先用中文概括照片中的情节、人物关系和潜台词，不剧透后续章节。
 2. **一个深度讨论问题**：英文问题配中文翻译；你回答后，可以继续自然讨论人物、选择、情感或主题。
-3. **完整的 B2–C1 生词整理**：按**左页从上到下，再右页从上到下**的原文顺序，不按字母排序。重点覆盖真正影响阅读的中高级词汇、文学表达和固定搭配，不遗漏 *flare / scoff / reprieve* 等常见但有难度的词。
+3. **完整的 B2–C1 生词整理，并覆盖有价值的文学 C2 词语**：按**左页从上到下，再右页从上到下**的原文顺序，单词与短语混合为一条连续编号序列，不按字母、难度或类别重排。重点覆盖真正影响阅读的中高级词汇、文学表达和固定搭配，不遗漏 *flare / scoff / reprieve* 等常见但有难度的词。
 4. **每个词都提供**：美式音标、约略 CEFR 等级、结合上下文的中文释义、原创英文例句和中文翻译。
 5. **图片辅助记忆**：植物、动物、器物、动作等适合视觉记忆的词汇，在平台支持时于词条附近插入参考图片；不打乱单词顺序。
 6. **连续阅读**：后续上传新页面时继续当前进度，尽量避免无意义的重复解释。
